@@ -1,6 +1,8 @@
 apiVersion: "1"
-version: "1"
+version: "2"
 id: "erica-ws2-dev-controller"
 description: "CloudBees CI configuration bundle for the erica-ws2 dev-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/erica-ws2/dev-controller"
 parent: "base"
+rbac:
+  - "rbac.yaml"
